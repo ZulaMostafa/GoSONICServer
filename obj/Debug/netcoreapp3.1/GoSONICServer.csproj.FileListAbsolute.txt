@@ -1,0 +1,11 @@
+F:\GOSONIC\Server\GoSONICServer\GoSONICServer\obj\Debug\netcoreapp3.1\GoSONICServer.csprojAssemblyReference.cache
+F:\GOSONIC\Server\GoSONICServer\GoSONICServer\obj\Debug\netcoreapp3.1\GoSONICServer.AssemblyInfoInputs.cache
+F:\GOSONIC\Server\GoSONICServer\GoSONICServer\obj\Debug\netcoreapp3.1\GoSONICServer.AssemblyInfo.cs
+F:\GOSONIC\Server\GoSONICServer\GoSONICServer\bin\Debug\netcoreapp3.1\GoSONICServer.exe
+F:\GOSONIC\Server\GoSONICServer\GoSONICServer\bin\Debug\netcoreapp3.1\GoSONICServer.deps.json
+F:\GOSONIC\Server\GoSONICServer\GoSONICServer\bin\Debug\netcoreapp3.1\GoSONICServer.runtimeconfig.json
+F:\GOSONIC\Server\GoSONICServer\GoSONICServer\bin\Debug\netcoreapp3.1\GoSONICServer.runtimeconfig.dev.json
+F:\GOSONIC\Server\GoSONICServer\GoSONICServer\bin\Debug\netcoreapp3.1\GoSONICServer.dll
+F:\GOSONIC\Server\GoSONICServer\GoSONICServer\bin\Debug\netcoreapp3.1\GoSONICServer.pdb
+F:\GOSONIC\Server\GoSONICServer\GoSONICServer\obj\Debug\netcoreapp3.1\GoSONICServer.dll
+F:\GOSONIC\Server\GoSONICServer\GoSONICServer\obj\Debug\netcoreapp3.1\GoSONICServer.pdb
