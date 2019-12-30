@@ -4,7 +4,7 @@ using System.Text;
 
 namespace GoSONICServer.Kernel
 {
-    public static class PacketWriter
+    public class PacketWriter
     {
         public static void WriteUshort(ushort arg, int offset, byte[] buffer)
         {

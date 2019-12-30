@@ -85,7 +85,6 @@ namespace GoSONICServer.Network.Sockets
                     OnReceivingEvent(handler, state.buffer);
                 }
             }
-
             handler.BeginReceive(state.buffer, 0, stateObject.bufferSize, 0, new AsyncCallback(ReadCallback), state);
         }
         public void Send(Socket handler, byte[] data)
