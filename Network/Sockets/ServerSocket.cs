@@ -32,7 +32,7 @@ namespace GoSONICServer.Network.Sockets
             currentConnection = new ManualResetEvent(false);
             IPHostEntry ipHostInfo = Dns.GetHostEntry(Dns.GetHostName());
             IPAddress ipAddress = IPAddress.Any;
-            localEndPoint = new IPEndPoint(ipAddress, 11000);
+            localEndPoint = new IPEndPoint(IPAddress.Any, 11000);
             listener = new Socket(ipAddress.AddressFamily, SocketType.Stream, ProtocolType.Tcp);
 
         }

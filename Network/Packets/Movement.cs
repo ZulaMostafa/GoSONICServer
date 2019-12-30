@@ -5,29 +5,33 @@ using System.Text;
 
 namespace GoSONICServer.Network.Packets
 {
-    public class GroundedObject : PacketWriter
+    public class Movement : PacketWriter
     {
         public byte[] Buffer;
-        public const int PacketSize = 200;
-        public GroundedObject(byte[] b)
-        {
-            Buffer = b;
-        }
-        public GroundedObject()
+        const int PacketSize = 7;
+        public Movement()
         {
             Buffer = new byte[PacketSize];
             WriteUshort(PacketSize, 0, Buffer);
-            WriteUshort(1002, 2, Buffer);
+            WriteUshort(1006, 0, Buffer);
+        }
+        public Movement(byte[] b)
+        {
+            Buffer = b;
         }
 
-        public byte CharacterType
+        public byte Type
         {
             get { return Buffer[5]; }
             set { Buffer[5] = value; }
         }
-        public byte[] Packet()
+
+
+        public byte ID
         {
-            return Buffer;
+            get { return Buffer[6]; }
+            set { Buffer[6] = value; }
         }
+
     }
 }
